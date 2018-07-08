@@ -4,7 +4,7 @@ Joichi Ito's Dissertation for PhD in the Graduate School of Media & Governance a
 
 Academic Year 2018
 
-### Abstract
+## Abstract
 
 Over the last century civilization has systematically supported a market-based approach to developing technical, financial, social and legal tools that focus on efficiency, growth and productivity. In this manner we have achieved considerable progress on some of the most pressing humanitarian challenges, such as eradicating infectious diseases and making life easier and more convenient. However, we have often put our tools and methods of use with little regard to their systemic or long-term effects, and have thereby created a set of new, interconnected, and more complex problems. Our new problems require new approaches: new understanding, solution design and intervention. Yet we continue to try to solve these new problems with the same tools that caused them.
 
