@@ -1,0 +1,184 @@
+% Classicthesis Typographic Thesis
+% LaTeX Template
+% Version 1.4 (1/1/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% André Miede (http://www.miede.de) with commenting modifications by:
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% GNU General Public License (v2)
+%
+% General Tips:
+% 1) Make sure to edit the classicthesis-config.file
+% 2) New enumeration (A., B., C., etc in small caps): \begin{aenumerate} \end{aenumerate}
+% 3) For margin notes: \marginpar or \graffito{}
+% 4) Do not use bold fonts in this style, it is designed around them
+% 5) Use tables as in the examples
+% 6) See classicthesis-preamble.sty for useful commands
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\newif\ifnotes
+\notestrue
+%\notesfalse 
+
+\documentclass[
+		twoside,openright,titlepage,numbers=noenddot,headinclude,%1headlines,
+	 	footinclude=true,cleardoublepage=empty,
+		dottedtoc, % Make page numbers in the table of contents flushed right with dots leading to them
+		BCOR=5mm,paper=a4,fontsize=11pt, % Binding correction, paper type and font size
+		ngerman,american, % Languages, change this to your language(s)
+		]{scrreprt} 
+                
+
+% Includes the file which contains all the document configurations and packages - make sure to edit this file
+\input{classicthesis-config}
+
+\addbibresource{Bibliography.bib} % The file housing your bibliography
+%\addbibresource[label=ownpubs]{Self_Publications.bib} % Uncomment for optional self-publications
+
+%\hyphenation{Put special hyphenation here}
+
+\begin{document}
+
+% commenting macros
+\ifnotes
+  \newcommand{\colornote}[3]{\textcolor{#1}{\smaller\sffamily\bfseries\boldmath[\ignorespaces #2 --- \smaller\textit{#3}]}}
+\else
+  \newcommand{\colornote}[3]{}
+\fi
+\newcommand{\dw}[1]{\colornote{red}{#1}{David Weinberger}}
+\newcommand{\madars}[1]{\colornote{blue}{#1}{Madars}}
+\newcommand{\karthik}[1]{\colornote{brown}{#1}{Karthik}}
+\newcommand{\joi}[1]{\colornote{cyan}{#1}{Joi}}
+\newcommand{\sassan}[1]{\colornote{olive}{#1}{sassan}}
+\newcommand{\chia}[1]{\colornote{purple}{#1}{Chia}}
+\newcommand{\andre}[1]{\colornote{pink}{#1}{Andre}}
+\newcommand{\natalie}[1]{\colornote{green}{#1}{Natalie}}
+\newcommand{\jz}[1]{\colornote{grey}{#1}{JZ}}
+\newcommand{\stephanie}[1]{\colornote{red}{#1}{Stephanie}}
+\newcommand{\deb}[1]{\colornote{blue}{#1}{Deb Roy}}
+\newcommand{\rdv}[1]{\colornote{red}{#1}{Rod Van Meter}}
+\newcommand{\jun}[1]{\colornote{blue}{#1}{Jun Murai}}
+\newcommand{\hiroya}[1]{\colornote{purple}{#1}{Hiroya Tanaka}}
+\newcommand{\keiko}[1]{\colornote{pink}{#1}{Keiko Okawa}}
+
+% Don't show comments 
+\renewcommand{\dw}[1]{}
+\renewcommand{\madars}[1]{}
+\renewcommand{\karthik}[1]{}
+\renewcommand{\joi}[1]{}
+\renewcommand{\sassan}[1]{}
+\renewcommand{\chia}[1]{}
+\renewcommand{\andre}[1]{}
+\renewcommand{\natalie}[1]{}
+\renewcommand{\jz}[1]{}
+\renewcommand{\stephanie}[1]{}
+\renewcommand{\deb}[1]{}
+\renewcommand{\rdv}[1]{}
+\renewcommand{\jun}[1]{}
+\renewcommand{\hiroya}[1]{}
+\renewcommand{\keiko}[1]{}
+
+\frenchspacing % Reduces space after periods to make text more compact
+
+\raggedbottom % Makes all pages the height of the text on that page
+
+\selectlanguage{american} % Select your default language - e.g. american or ngerman
+
+%\renewcommand*{\bibname}{new name} % Uncomment to change the name of the bibliography
+%\setbibpreamble{} % Uncomment to include a preamble to the bibliography - some text before the reference list starts
+
+\pagenumbering{roman} % Roman page numbering prior to the start of the thesis content (i, ii, iii, etc)
+
+\pagestyle{plain} % Suppress headers for the pre-content pages
+
+%----------------------------------------------------------------------------------------
+%	PRE-CONTENT THESIS PAGES
+%----------------------------------------------------------------------------------------
+
+\include{FrontBackMatter/Titlepage} % Main title page
+
+\include{FrontBackMatter/Titleback} % Back of the title page
+
+% \cleardoublepage\include{FrontBackMatter/Dedication} % Dedication page
+
+\cleardoublepage\include{FrontBackMatter/Abstract} % Abstract page
+
+\cleardoublepage\include{FrontBackMatter/Acknowledgments} % Acknowledgements page
+
+\pagestyle{scrheadings} % Show chapter titles as headings
+
+\cleardoublepage\include{FrontBackMatter/Contents} % Contents, list of figures/tables/listings and acronyms
+
+\cleardoublepage
+
+\pagenumbering{arabic} % Arabic page numbering for thesis content (1, 2, 3, etc)
+%\setcounter{page}{90} % Uncomment to manually start the page counter at an arbitrary value (for example if you wish to count the pre-content pages in the page count)
+
+\cleardoublepage % Avoids problems with pdfbookmark
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%----------------------------------------------------------------------------------------
+
+%\ctparttext{\textbf{Part I} introduces the reader to this thesis and also outlines its structure. The reader will be introduced to core ideas that inform and inspire the main contribution of this thesis -- change and transformation of complex systems to address seemingly intractable problems plaguing our society.} 
+%\part{Introduction} % First part of the thesis
+
+\include{Chapters/Chapter01} % Chapter 1 - introduction
+
+%\cleardoublepage
+%\ctparttext{\textbf{Part II} is the body of the dissertation broken up into three chapters. The three chapters, Requiring Change, Theory of Change and Practice of Change describe what we need to change, how we change and examples of the applications of those methods in my work.} 
+%\part{Body} % Second part of the thesis
+
+\include{Chapters/Chapter02} % Chapter 2 - requiring change
+\include{Chapters/Chapter03} % Chapter 3 - theory of change
+\include{Chapters/Chapter04} % Chapter 4 - practice of change
+\include{Chapters/Chapter05} % Chapter 5 - culture of change - NEW CHAPTER!
+
+%\cleardoublepage
+%\ctparttext{\textbf{Part III} is a conclusion which reflects on the learnings from successes and failures in applying the theory of change on the areas described in Requiring Change. From these learnings, I discuss and explore how the work can continue and possibly be applied by others.} 
+%\part{Conclusion} % Third part of the thesis
+
+\include{Chapters/Chapter06} % Chapter 6 - conclusion
+
+\cleardoublepage % Empty page before the start of the next part
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDICES
+%----------------------------------------------------------------------------------------
+
+\appendix
+
+%\part{Appendix} % New part of the thesis for the appendix
+
+\include{Chapters/Chapter0A}
+\include{Chapters/Chapter0B}
+\include{Chapters/Chapter0C}
+\include{Chapters/Chapter0D}
+\include{Chapters/Chapter0E}
+\include{Chapters/Chapter0F}
+\include{Chapters/Chapter0G}
+% \include{Chapters/Chapter0H}
+
+%----------------------------------------------------------------------------------------
+%	POST-CONTENT THESIS PAGES
+%----------------------------------------------------------------------------------------
+
+\cleardoublepage\include{FrontBackMatter/Bibliography} % Bibliography
+
+%\cleardoublepage\include{FrontBackMatter/Declaration} % Declaration
+
+%\cleardoublepage\include{FrontBackMatter/Colophon} % Colophon
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

@@ -1,0 +1,128 @@
+% Table of Contents - List of Tables/Figures/Listings and Acronyms
+
+\refstepcounter{dummy}
+
+\pdfbookmark[1]{\contentsname}{tableofcontents} % Bookmark name visible in a PDF viewer
+
+\setcounter{tocdepth}{2} % Depth of sections to include in the table of contents - currently up to subsections
+
+\setcounter{secnumdepth}{3} % Depth of sections to number in the text itself - currently up to subsubsections
+
+\manualmark
+\markboth{\spacedlowsmallcaps{\contentsname}}{\spacedlowsmallcaps{\contentsname}}
+\tableofcontents 
+\automark[section]{chapter}
+\renewcommand{\chaptermark}[1]{\markboth{\spacedlowsmallcaps{#1}}{\spacedlowsmallcaps{#1}}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\enspace\spacedlowsmallcaps{#1}}}
+
+\clearpage
+
+\begingroup 
+\let\clearpage\relax
+\let\cleardoublepage\relax
+\let\cleardoublepage\relax
+
+%----------------------------------------------------------------------------------------
+%	List of Figures
+%----------------------------------------------------------------------------------------
+
+\refstepcounter{dummy}
+%\addcontentsline{toc}{chapter}{\listfigurename} % Uncomment if you would like the list of figures to appear in the table of contents
+\pdfbookmark[1]{\listfigurename}{lof} % Bookmark name visible in a PDF viewer
+
+\listoffigures
+
+\vspace{8ex}
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	List of Tables
+%----------------------------------------------------------------------------------------
+
+\refstepcounter{dummy}
+%\addcontentsline{toc}{chapter}{\listtablename} % Uncomment if you would like the list of tables to appear in the table of contents
+\pdfbookmark[1]{\listtablename}{lot} % Bookmark name visible in a PDF viewer
+
+\listoftables
+        
+\vspace{8ex}
+\newpage
+    
+%----------------------------------------------------------------------------------------
+%	List of Listings
+%---------------------------------------------------------------------------------------- 
+
+% \refstepcounter{dummy}
+%\addcontentsline{toc}{chapter}{\lstlistlistingname} % Uncomment if you would like the list of listings to appear in the table of contents
+% \pdfbookmark[1]{\lstlistlistingname}{lol} % Bookmark name visible in a PDF viewer
+
+%\lstlistoflistings 
+
+% \vspace{8ex}
+% \newpage
+       
+%----------------------------------------------------------------------------------------
+%	Acronyms
+%----------------------------------------------------------------------------------------
+
+ \refstepcounter{dummy}
+\addcontentsline{toc}{chapter}{Acronyms} % Uncomment if you would like the acronyms to appear in the table of contents
+ \pdfbookmark[1]{Acronyms}{acronyms} % Bookmark name visible in a PDF viewer
+
+ \markboth{\spacedlowsmallcaps{Acronyms}}{\spacedlowsmallcaps{Acronyms}}
+
+\chapter*{Acronyms}
+
+\begin{acronym}[UML]
+\acro{AI}{Artificial Intelligence}
+\acro{ASIJ}{American School in Japan}
+\acro{AIDS}{acquired immune deficiency syndrome}
+\acro{AWG}{Air Quality Working Group}
+\acro{API}{Application Programming Interface}
+\acro{AeroAstro}{Department of Aeronautics and Astronautics}
+\acro{BOJ}{The Bank of Japan}
+\acro{CALEA}{Communications Assistance for Law Enforcement Act}
+\acro{CC}{Creative Commons}
+\acro{CERN}{\textit{Conseil européen pour la recherche nucléaire} [The European Organization for Nuclear Research]}
+\acro{CIA}{Central Intelligence Agency}
+\acro{DARPA}{The Defense Advanced Research Projects Agency}
+\acro{DCI}{Digital Currency Initiative}
+\acro{DNN}{deep neural network}
+\acro{DRM}{Digital Rights Management}
+\acro{EAPS}{Department of Earth, Atmospheric and Planetary Sciences}
+\acro{EI}{Extended Intelligence}
+\acro{FTP}{File Transfer Protocol}
+\acro{GPL}{GNU General Public License}
+\acro{GSA}{General Services Administration}
+\acro{HTML}{HyperText Markup Language}
+\acro{$IC_{50}$}{Half Maximal Inhibitory Concentration}
+\acro{ICANN}{Internet Corporation for Assigned Names and Numbers}
+\acro{IEEE}{The Institute of Electrical and Electronic Engineers}
+\acro{IETF}{The Internet Engineering Task Force}
+\acro{IMF}{International Monetary Fund}
+\acro{IRC}{Internet Relay Chat}
+\acro{ISS}{International Space Station}
+\acro{JoDS}{Journal of Design and Science}
+\acro{JPIX}{Japan Internet Exchange}
+\acro{KFG}{Knowledge Futures Group}
+\acro{MBA}{Master of Business Administration}
+\acro{NASA}{National Aeronautics and Space Administration}
+\acro{NCC}{New Context Conference}
+\acro{NGO}{Non-governmental organization}
+\acro{NTT}{Nippon Telephone and Telegraph}
+\acro{OSI}{Open Source Initiative}
+\acro{PCB}{Printed Circuit Board}
+\acro{PI}{principal investigator}
+\acro{RDF}{Resource Description Framework}
+\acro{RSS}{Rich Site Summary; originally RDF Site Summary; often called Really Simple Syndication}
+\acro{STEAM}{Science, Technology, Engineering and Math}
+\acro{TCP/IP}{Transmission Control Protocol/Internet Protocol}
+\acro{TEPCO}{Tokyo Electric Power Company}
+\acro{VoIP}{Voice over Internet Protocol}
+\acro{URL}{Uniform Resource Locator}
+\acro{WAN}{wide area network}
+\acro{WIDE}{Widely Integrated Distributed Environment}
+\acro{X.25}{The International Telecommunication Union Telecommunication Standardization Sector standard protocol suite for packet switched wide area network communication}
+\end{acronym}
+                   
+\endgroup

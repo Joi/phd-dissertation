@@ -1,0 +1,27 @@
+On May 1, 2018, at 00:35, Jeffrey Shapard <jefu@radikul.com> wrote:
+
+where: Section 1.6 of your draft on pp15-16
+what: Sapir-Whorf hypothesis
+
+The Sapir-Whorf hyopthesis is a misnomer, actually, a deliberate misinterpretation used as a strawman by Behaviorist academic competitors to dismiss the touchy feely cultural relativity stuff that Edward Sapir at Yale and his student but independent scholar Benjamin Lee Whorf were doing.
+
+They never made any such claims that language determines perception, or published a specific hypothesis. They did, however, describe and demonstrate and take amazement in the beauty and complexity and diversity in the relationship between language and culture, language and perception, culture and perception. Sapir once said that language and culture are two sides of the same coin. Cultural relativity.
+
+Edward Sapir was an early and influential cultural anthropologist, student of Franz Boas, the botanist turned pioneer field anthropologist and basically the founder of American anthropology. They studied culture through language and also basically founded American linguistics as well. And they focused especially on American native languages, which have many families and far more diversity than one might find in, say, Europe. Whorf used to refer to all European language as SAE (Standard Average European) due to their relatively low diversity in how they can describe the world.
+
+Benjamin Lee Whorf was a notable fire prevention engineer for a big insurance company in Hartford, and some kind of hyperactive independent scholar. He learned Old Greek, Aramaic, and Hebrew so he could study biblical texts in their original languages, then went down to New Haven one day to meet Edward Sapir, who tried to recruit him into academia. Whorf liked his job and hated academic politics, so he just studied with Sapir and did a whole lot of cool research on Mezo-American languages. He was so good at his job (saving the insurance company lots of money through good fire prevention design) that they would give him these long sabbaticals to head off into the jungle in Mexico to hang with some Aztec descendants and learn their languages. Also spent time in the SW.
+
+Anyway, Sapir died young and Whorf did his research, published papers in obscure journals, and stayed out of of academic debate. Funny how the hypothesis in their names gets more reference than the actual amazing work they did.
+
+So… this reference might be stronger in your argument by stating it as something demonstrated rather than as something stronger but controversial:
+
+Your Original: The Sapir–Whorf hypothesis argues that language determines what one can think. This theory is controversial, but studies have shown, for instance, that language does affect how we perceive color…
+
+Recommendation: In what some have called the Sapir-Whorf hypothesis, early linguists Edward Sapir and Benjamin Lee Whorf described and demonstrated the relationship between language and cultural and perception. Studies have shown, for instance, that language does affect how we perceive color...
+
+
+By the way, before I first went to Japan I was trained as a 5th-generation Boasian linguist, was and probably still am the world’s foremost pulbished expert on Interior Salishan ditranstive suffixes, and even spent a month one summer doing field research while staying with and driving around this old Cour d’Alene dude who was the original informant as a young man for Gladys Reichard, another one of Edward Sapir’s students, and the author of the first linguistic study of the Cour d’Alene language.
+
+I am a big fan of Benjamin Lee Whorf, both for his cool studies on some crazy languages as well as for his independence as a scholar. He studied what he studied cuz he thought it was interesting, and only wrote and published to share. He did not care if it was trendy or not (usually not) and was not sweating for academic positions.
+
+—jefu
