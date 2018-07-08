@@ -25,6 +25,15 @@ Reflecting on my work experience, I examine my successes and failures in the for
 
 Cybernetics, Systems Dynamics, Philosophy of Science, Internet, Cryptocurrency
 
+## Advisors / Readers
+
+Jun Murai, Keio University
+
+Rodney Van Meter, Keio University
+Keiko Okawa, Keio University
+Hiroya Tanaka, Keio University
+Jonathan L. Zittrain, Harvard University
+
 ## Reading the document
 
 The document is written in LaTeX. You can download the compiled PDF from:
