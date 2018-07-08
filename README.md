@@ -27,7 +27,7 @@ Cybernetics, Systems Dynamics, Philosophy of Science, Internet, Cryptocurrency
 
 ## Reading the document
 
-The document is written in LaTeX. You can download the compiled PDF from DocumentCloud <https://www.documentcloud.org/documents/4585480-Ito-Phd-Diss-Final.html>
+The document is written in LaTeX. You can download the compiled PDF from DocumentCloud https://www.documentcloud.org/documents/4585480-Ito-Phd-Diss-Final.html or Academia.edu https://www.academia.edu/37002692/The_Practice_of_Change
 ## Compiling
 
 If you would like to compile the document yourself, you will need LaTeX installed.
