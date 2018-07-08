@@ -1,6 +1,7 @@
 # The Practice of Change
 
 Joichi Ito's Dissertation for PhD in the Graduate School of Media & Governance at Keio University
+
 Academic Year 2018
 
 ### Abstract
@@ -34,7 +35,7 @@ If you would like to compile the document yourself, you will need LaTeX installe
 
 ## Author
 
-* **Joichi Ito** - [Joi](https://github.com/Joi)
+**Joichi Ito** - [Joi](https://github.com/Joi)
 
 
 ## License
@@ -43,7 +44,7 @@ This project is licensed under a Creative Commons Attribution 4.0 license - see 
 
 ## Acknowledgments
 
-To my late godfather Timothy Leary for ``Question Authority and Think For Yourself.''
+To my late godfather Timothy Leary for "Question Authority and Think For Yourself."
 
 To Jun Murai for pushing me to do this dissertation.
 
@@ -53,7 +54,7 @@ To Nicholas Negroponte for the Media Lab and his mentorship.
 
 To the late Kenichi Fukui for encouraging me to think about complex systems and the limits of reduction.
 
-To the late John Perry Barlow for the ``Declaration of Independence of Cyberspace.''
+To the late John Perry Barlow for the "Declaration of Independence of Cyberspace."
 
 To Hashim Sarkis for sending me in the direction of Foucault.
 
@@ -65,7 +66,7 @@ To my research colleagues Karthik Dinakar, Chia Evers, Natalie Saltiel, Pratik S
 
 To Yuka Sasaki, Stephanie Strom and Mika Tanaka for their help on helping me pull this dissertation together.
 
-To David Weinberger for ``The final edit.''
+To David Weinberger for "The final edit."
 
 To Sean Bonner, Danese Cooper, Ariel Ekblaw, Pieter Franken, Mizuko Ito, Mike Linksvayer, Pip Mothersill, Diane Peters, Deb Roy and Jeffrey Shapard for their feedback on various parts of the dissertation.
 
