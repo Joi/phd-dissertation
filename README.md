@@ -27,8 +27,7 @@ Cybernetics, Systems Dynamics, Philosophy of Science, Internet, Cryptocurrency
 
 ## Reading the document
 
-The document is written in LaTeX. Just download main.pdf if you want to read the typeset doc.
-
+The document is written in LaTeX. You can download the compiled PDF from DocumentCloud <https://www.documentcloud.org/documents/4585480-Ito-Phd-Diss-Final.html>
 ## Compiling
 
 If you would like to compile the document yourself, you will need LaTeX installed.
