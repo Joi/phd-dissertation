@@ -38,7 +38,7 @@ Jonathan L. Zittrain, Harvard University
 
 The document is written in LaTeX. You can download the compiled PDF from:
 
-* DocumentCloud - https://www.documentcloud.org/documents/4585480-Ito-Phd-Diss-Final.html
+* DocumentCloud - https://www.documentcloud.org/documents/4586968-Joi-Phd-2cm-Twosided-v2.html
 * Academia.edu - https://www.academia.edu/37002692/The_Practice_of_Change
 
 ## Compiling
