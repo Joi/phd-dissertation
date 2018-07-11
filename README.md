@@ -34,6 +34,12 @@ Keiko Okawa, Keio University
 Hiroya Tanaka, Keio University
 Jonathan L. Zittrain, Harvard University
 
+## Versions
+
+The Branch on Github [offset-for-binding](https://github.com/Joi/phd-dissertation/tree/offset-for-binding) is a version with a BCOR=25mm which is an offset for the printers in Japan to provide enough space for the binding. This is the version used for the final printed version submitted to Keio University. Use this version if you need 2 cm of extra space on the left side.
+
+The main branch has BCOR=5mm which is the default for Classicthesis Typographic Thesis LaTeX Template Version 1.4 (1/1/16)
+
 ## Reading the document
 
 The document is written in LaTeX. You can download the compiled PDF from:
@@ -83,3 +89,27 @@ To David Weinberger for "The final edit."
 To Sean Bonner, Danese Cooper, Ariel Ekblaw, Pieter Franken, Mizuko Ito, Mike Linksvayer, Pip Mothersill, Diane Peters, Deb Roy and Jeffrey Shapard for their feedback on various parts of the dissertation.
 
 Finally, thanks to Kio and Mizuka for making room in our family life to work on this and for supporting me through the process.
+
+### Template Used
+
+% Classicthesis Typographic Thesis
+% LaTeX Template
+% Version 1.4 (1/1/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% André Miede (http://www.miede.de) with commenting modifications by:
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% GNU General Public License (v2)
+%
+% General Tips:
+% 1) Make sure to edit the classicthesis-config.file
+% 2) New enumeration (A., B., C., etc in small caps): \begin{aenumerate} \end{aenumerate}
+% 3) For margin notes: \marginpar or \graffito{}
+% 4) Do not use bold fonts in this style, it is designed around them
+% 5) Use tables as in the examples
+% 6) See classicthesis-preamble.sty for useful commands
