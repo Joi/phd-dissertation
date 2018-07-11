@@ -92,24 +92,18 @@ Finally, thanks to Kio and Mizuka for making room in our family life to work on 
 
 ### Template Used
 
-% Classicthesis Typographic Thesis
-% LaTeX Template
-% Version 1.4 (1/1/16)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Original author:
-% André Miede (http://www.miede.de) with commenting modifications by:
-% Vel (vel@LaTeXTemplates.com)
-%
-% License:
-% GNU General Public License (v2)
-%
-% General Tips:
-% 1) Make sure to edit the classicthesis-config.file
-% 2) New enumeration (A., B., C., etc in small caps): \begin{aenumerate} \end{aenumerate}
-% 3) For margin notes: \marginpar or \graffito{}
-% 4) Do not use bold fonts in this style, it is designed around them
-% 5) Use tables as in the examples
-% 6) See classicthesis-preamble.sty for useful commands
+Classicthesis Typographic Thesis LaTeX Template Version 1.4 (1/1/16)
+
+This template has been downloaded from: http://www.LaTeXTemplates.com
+
+Original author: André Miede (http://www.miede.de) with commenting modifications by: Vel (vel@LaTeXTemplates.com)
+
+License: GNU General Public License (v2)
+
+General Tips:
+1. Make sure to edit the classicthesis-config.file
+1. New enumeration (A., B., C., etc in small caps): \begin{aenumerate} \end{aenumerate}
+1. For margin notes: \marginpar or \graffito{}
+1. Do not use bold fonts in this style, it is designed around them
+1. Use tables as in the examples
+1. See classicthesis-preamble.sty for useful commands
