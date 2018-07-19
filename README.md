@@ -48,6 +48,10 @@ The document is written in LaTeX. You can download the compiled PDF from:
 * Academia.edu - https://www.academia.edu/37002692/The_Practice_of_Change
 * ResearchGate - https://www.researchgate.net/publication/326320152_The_Practice_of_Change
 
+## Errata
+
+* In Section 2.3.0.7 "Postscript to Emergent Democracy" I wrote, "For example, Martin Luther King Jr. met with Mahatma Gandhi to discuss nonviolent protest strategy." Martin Luther King never met Gandhi, but did correspond with him and met with his followers. The section now reads "For example, Martin Luther King Jr. read  Mahatma Gandhi's works and corresponded with Gandhi's associates and discussed nonviolent protest strategy." and has been updated in version 1.1.
+
 ## Compiling
 
 If you would like to compile the document yourself, you will need LaTeX installed.
