@@ -44,6 +44,8 @@ The main branch has BCOR=5mm which is the default for Classicthesis Typographic 
 
 The document is written in LaTeX. You can download the compiled PDF from:
 
+* [Practice of Change site with full text and request for comments for book](https://www.practiceofchange.org/).
+* [Abstract and Committee Letter on Keio University site](http://koara.lib.keio.ac.jp/xoonips/modules/xoonips/detail.php?koara_id=KO90001002-20184966-0001).
 * PDF of latest version: https://web.media.mit.edu/~joi/files/ito_phd_diss_v1.11.pdf
 * DSpace - https://dspace.mit.edu/handle/1721.1/116989
 * DocumentCloud - https://www.documentcloud.org/documents/4594275-Ito-Phd-Diss-Final-Final.html
